@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "27ac6+whV1E=",
+  "dgSpecHash": "dKrwKBT1ZhE=",
   "success": true,
   "projectFilePath": "C:\\Users\\freim\\source\\repos\\SavannahApplicantsRepos\\ChatSystem\\ChatSystem.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\freim\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
