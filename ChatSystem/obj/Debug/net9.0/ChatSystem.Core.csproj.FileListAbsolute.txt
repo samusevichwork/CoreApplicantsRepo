@@ -1,0 +1,13 @@
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.csproj.AssemblyReference.cache
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.AssemblyInfoInputs.cache
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.AssemblyInfo.cs
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.sourcelink.json
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\bin\Debug\net9.0\ChatSystem.Core.deps.json
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\bin\Debug\net9.0\ChatSystem.Core.dll
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\bin\Debug\net9.0\ChatSystem.Core.pdb
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.dll
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\refint\ChatSystem.Core.dll
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ChatSystem.Core.pdb
+C:\Users\freim\source\repos\SavannahApplicantsRepos\ChatSystem\obj\Debug\net9.0\ref\ChatSystem.Core.dll
