@@ -61,7 +61,7 @@
 
 ## Структура шаблона проекта
 
-Проект — это .NET Solution (.NET 8.0), совместимая с Visual Studio или VS Code. Структура:
+Проект — это .NET Solution (.NET 9.0), совместимая с Visual Studio или VS Code. Структура:
 
 - **ChatSystem.Core**: Основная логика.
   - `IChatNetwork.cs`: Интерфейс для mocked сети (имитирует Photon-like поведение: `SendMessage`, `RaiseEvent`, `ISubject` для событий).
