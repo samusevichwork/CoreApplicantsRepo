@@ -979,8 +979,8 @@
     },
     "ChatSystem.Core/1.0.0": {
       "type": "project",
-      "path": "../ChatSystem/ChatSystem.Core.csproj",
-      "msbuildProject": "../ChatSystem/ChatSystem.Core.csproj"
+      "path": "../ChatSystem.Core/ChatSystem.Core.csproj",
+      "msbuildProject": "../ChatSystem.Core/ChatSystem.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1026,8 +1026,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\freim\\source\\repos\\SavannahApplicantsRepos\\ChatSystem\\ChatSystem.Core.csproj": {
-              "projectPath": "C:\\Users\\freim\\source\\repos\\SavannahApplicantsRepos\\ChatSystem\\ChatSystem.Core.csproj"
+            "C:\\Users\\freim\\source\\repos\\SavannahApplicantsRepos\\ChatSystem.Core\\ChatSystem.Core.csproj": {
+              "projectPath": "C:\\Users\\freim\\source\\repos\\SavannahApplicantsRepos\\ChatSystem.Core\\ChatSystem.Core.csproj"
             }
           }
         }
