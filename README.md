@@ -81,12 +81,12 @@
 ## Инструкции по установке и запуску
 
 1. **Требования**:
-   - .NET SDK 8.0+ ([скачать](https://dotnet.microsoft.com/download)).
+   - .NET SDK 9.0 ([скачать](https://dotnet.microsoft.com/download)).
    - Visual Studio 2022+ или VS Code с C# extension.
    - Опционально: Unity 2022+ для UI-интеграции (если решите добавить).
 
 2. **Клонирование и настройка**:
-   - Клонируйте repo: `git clone [ваш GitHub link]`.
+   - Клонируйте repo: `git clone https://github.com/YamakasiTeam/CoreApplicantsRepo.git`.
    - Откройте в VS: `ChatSystem.sln`.
    - Восстановите пакеты: `dotnet restore`.
    - Если добавляете Unity: создайте Unity-проект, импортируйте .NET проекты как assemblies, настройте DI.
