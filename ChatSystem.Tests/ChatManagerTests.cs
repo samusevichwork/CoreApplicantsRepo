@@ -1,9 +1,6 @@
 ﻿using ChatSystem.Core;
 using Moq;
-using NUnit.Framework;
-using System;
 using System.Reactive.Subjects;
-using System.Threading.Tasks;
 
 namespace ChatSystem.Tests
 {

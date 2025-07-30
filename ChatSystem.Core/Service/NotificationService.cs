@@ -1,35 +1,32 @@
 ﻿using ChatSystem.Core.Data;
 using ChatSystem.Core.Interface.Notifications;
-using System.Reactive.Subjects;
 
 namespace ChatSystem.Core.Service
 {
-    internal class NotificationService : INotificationService, INotificationStream, IDisposable
+    internal class NotificationService : INotificationService, IDisposable
     {
-        private IChatNetwork _network;
-        private Subject<Notification> _notificationStream;
-        private Builders.NotificationBuilder _notificationBuilder;
+        private readonly IChatNetwork _network;
+        private readonly INotificationMediator _notificationMediator;
+        private readonly Builders.NotificationBuilder _notificationBuilder;
         private IDisposable _disposable;
 
-        public NotificationService(IChatNetwork network, Builders.NotificationBuilder notificationBuilder)
+        public NotificationService(IChatNetwork network, INotificationMediator notificationMediator, Builders.NotificationBuilder notificationBuilder)
         {
             _network = network;
             _notificationBuilder = notificationBuilder;
-            _notificationStream = new();
+            _notificationMediator = notificationMediator;
             _disposable = _network.OnEventReceived.Subscribe(HandleNotification);
         }
 
-        public IObservable<Notification> Notification => _notificationStream;
-
         public void Dispose()
         {
-            _disposable?.Dispose();
+            _disposable.Dispose();
         }
 
         private void HandleNotification((EventType, object) rawNotification)
         {
             var notification = ParseNotification(rawNotification);
-            _notificationStream.OnNext(notification);
+            _notificationMediator.RouteNotification(notification);
 
             Notification ParseNotification((EventType, object) notification)
             {

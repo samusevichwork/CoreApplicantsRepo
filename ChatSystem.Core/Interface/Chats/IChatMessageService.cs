@@ -2,8 +2,8 @@
 {
     internal interface IChatMessageService
     {
-        public void SendPublicMessage(string playerName, string message);
-        public void SendTeamMessage(string playerName, string message);
-        public void SendSystemMessage(string playerName, string message);
+        public Task SendPublicMessageAsync(string playerName, string message);
+        public Task SendTeamMessageAsync(string playerName, string message);
+        public Task SendSystemMessageAsync(string playerName, string message);
     }
 }

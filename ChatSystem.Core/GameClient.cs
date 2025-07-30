@@ -16,21 +16,21 @@ namespace ChatSystem.Core
             _notificationService = notificationService;
         }
 
-        public string Name;
+        public string Name { get; set; }
 
         public void SendPublicMessage(string message)
         {
-            _chatMessageService.SendPublicMessage(Name, message);
+            _chatMessageService.SendPublicMessageAsync(Name, message);
         }
 
         public void SendTeamMessage(string message)
         {
-            _chatMessageService.SendTeamMessage(Name, message);
+            _chatMessageService.SendTeamMessageAsync(Name, message);
         }
 
         public void SendSystemMessage(string message)
         {
-            _chatMessageService.SendTeamMessage(Name, message);
+            _chatMessageService.SendSystemMessageAsync(Name, message);
         }
     }
 }

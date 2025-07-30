@@ -1,6 +1,6 @@
 ﻿namespace ChatSystem.Core.Interface.Chats
 {
-    internal interface ISystemChat
+    public interface ISystemChat
     {
         public void Handle(string message, string sender);
     }
